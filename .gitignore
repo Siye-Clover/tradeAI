@@ -1,0 +1,14 @@
+
+target/
+logs/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.i
+### Trae ###
+.husky
+
+src/main/resources/application.yml
+src/main/resources/application-dev.yml
