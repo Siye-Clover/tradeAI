@@ -9,6 +9,5 @@ logs/
 *.i
 ### Trae ###
 .husky
-
-src/main/resources/application.yml
-src/main/resources/application-dev.yml
+backend/ruoyi-admin-wms/src/main/resources/application.yml
+backend/ruoyi-admin-wms/src/main/resources/application-dev.yml
