@@ -39,3 +39,27 @@ tradeAI/ui/
 │   └── app.tsx           # 应用入口配置
 ├── package.json          # 项目依赖及脚本
 └── .gitignore            # Git忽略配置
+
+tradeAI/backend/
+├── src/main/java/com/tradeai/
+│   ├── controller/        # 接口层（接收前端请求）
+│   │   ├── ToolController.java      # 代码生成工具接口
+│   │   ├── InventoryController.java # 库存管理接口
+│   │   └── MonitorController.java   # 监控数据接口
+│   ├── service/           # 业务逻辑层
+│   │   ├── impl/          # 业务逻辑实现类
+│   │   ├── ToolService.java        # 代码生成业务逻辑
+│   │   └── InventoryService.java   # 库存业务逻辑
+│   ├── mapper/            # 数据访问层（与数据库交互）
+│   ├── model/             # 数据模型（实体类、DTO、VO）
+│   │   ├── entity/        # 数据库实体类
+│   │   └── dto/           # 前后端数据传输对象
+│   ├── config/            # 配置类（数据库、Swagger、安全等）
+│   ├── util/              # 工具类（加密、日期处理等）
+│   └── TradeAiApplication.java     # 应用入口类
+├── src/main/resources/
+│   ├── application.yml    # 主配置文件（数据库连接、端口等）
+│   ├── application-dev.yml # 开发环境配置
+│   └── mapper/            # MyBatis映射文件（XML）
+├── src/test/              # 单元测试
+└── pom.xml                # Maven依赖配置
