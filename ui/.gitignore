@@ -1,0 +1,28 @@
+
+
+node_modules/
+
+
+/dist
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+
+# umi
+.umi
+.umi-production
+.umi-test
+
+build
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
